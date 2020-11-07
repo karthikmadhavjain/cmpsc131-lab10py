@@ -24,7 +24,7 @@ def run():
     inputted = input("Enter a string: ")
   print("List: ",t)
   print("Sorted List: ",remove_duplicate_sorted(t))
-  print("Dictionary: ",list_to_dictionary(t))
+  print("Dict: ",list_to_dictionary(t))
 
 if __name__ == "__main__":
   run()
