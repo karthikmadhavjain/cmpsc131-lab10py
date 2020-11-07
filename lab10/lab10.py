@@ -18,10 +18,10 @@ def list_to_dictionary(t):
 
 def run():
   t = []
-  inputted = input("Enter a string:")
+  inputted = input("Enter a string: ")
   while(inputted != "done"):
     t.append(inputted)
-    inputted = input("Enter a string:")
+    inputted = input("Enter a string: ")
   print("List: ",t)
   print("Sorted List: ",remove_duplicate_sorted(t))
   print("Dictionary: ",list_to_dictionary(t))
